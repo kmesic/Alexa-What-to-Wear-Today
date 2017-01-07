@@ -1,0 +1,8 @@
+WearTodayIntent what clothes to wear in {city}
+WearTodayIntent what clothes to wear today in {city}
+WearTodayIntent what should I wear in {city}
+WearTodayIntent what should I wear today in {city}
+WearTodayIntent what to wear in {city}
+WearTodayIntent what to wear today in {city}
+WearTodayIntent give me something to wear in {city}
+WearTodayIntent {city}
