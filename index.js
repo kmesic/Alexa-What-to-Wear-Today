@@ -43,8 +43,8 @@ WearToday.prototype.eventHandlers.onSessionStarted = function (sessionStartedReq
 
 WearToday.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
     console.log("WearToday onLaunch requestId: " + launchRequest.requestId + ", sessionId: " + session.sessionId);
-    var speechOutput = "Welcome to the Alexa What to Wear, you can say the city and I will give you recommendations of what to wear";
-    var repromptText = "You can say the city";
+    var speechOutput = "Welcome to the What to Wear Today, what city do you want for me to give recommendations of what to wear today?";
+    var repromptText = "What city would you like for me to check what you should wear?";
     response.ask(speechOutput, repromptText);
 };
 
@@ -61,7 +61,7 @@ WearToday.prototype.intentHandlers = {
         handleWearToday(intent, session, response);
     },
     "AMAZON.HelpIntent": function (intent, session, response) {
-        var speechText = "With Wear Today, I can recommend what you should wear or bring in a city today based on the weather forcast. What city would you like me to look into?";
+        var speechText = "With What to Wear Today, I can recommend what you should wear or bring in a city today based on the weather forcast. What city would you like me to look into?";
         var repromptText =  "What city would you like for me to check what you should wear?";
         var speechOutput = {
             speech: speechText,
