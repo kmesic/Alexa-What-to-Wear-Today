@@ -6,7 +6,7 @@
 /**
  * Examples:
  * One-shot model:
- *  User: "Alexa, tell What to Wear Today {city}"
+ *  User: "Alexa, tell Wear Today {city}"
  *  Alexa: "The temperatures will be with a 50F high and "
  */
 
