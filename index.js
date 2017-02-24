@@ -98,7 +98,8 @@ exports.handler = function (event, context) {
     wearToday.execute(event, context);
 };
 
-var apiKey = 'cacdf29dc2be47d484a105606152306';
+var oldApiKey = 'cacdf29dc2be47d484a105606152306';
+var apiKey = '156fc822483e4ffaa5100618162512';
 
 var b_clothes = ["shorts", "pants", "snow pants"]; //bottom clothing
 var u_clothes = ["a short sleeved shirt", "a sweatshirt or a jacket", "a rain jacket", "a snow jacket"]; //upper clothing
